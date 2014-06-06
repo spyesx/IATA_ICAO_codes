@@ -1,5 +1,8 @@
 ## IATA & ICAO Codes ##
 
-This list includes more than 7000 airports. 
+This list includes more than 7000 airports.
 
 If you only need a JSON version, feel free to open **/datas/city_airport_codes.json**.
+
+Feel free to visit [spyesx.fr/travels](http://spyesx.fr/travels) to get more info.
+
