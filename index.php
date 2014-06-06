@@ -4,16 +4,22 @@
 	$ARRAYdatas = json_decode($JSONdatas);
 
 ?><!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
+<html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#" class="no-js" lang="en">
+	<head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
+        <title>IATA &amp; ICAO Codes</title>
+        <meta name="description" content="A simple list of IATA and ICAO code for <?php echo count($ARRAYdatas); ?> airports">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta property="og:title" content="IATA &amp; ICAO Codes" />
+		<meta property="og:description" content="A simple list of IATA and ICAO code for <?php echo count($ARRAYdatas); ?> airports" />
+		<meta property="og:image" content="http://spyesx.fr/travels/assets/img/nicolas_bages_nepal_anapurnas.jpg" />
+		<meta property="og:url" content="http://spyesx.fr/travels/iata_icao_codes" />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="Nico's travels" />
+
+
 
         <link rel="stylesheet" href="css/vendor/normalize.css">
         <link rel="stylesheet" href="css/vendor/foundation.css">
