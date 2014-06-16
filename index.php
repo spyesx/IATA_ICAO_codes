@@ -49,9 +49,12 @@
 
          <div class="row">
 			<div class="large-12 columns">
-				<div data-alert class="alert-box info radius">
+				<div data-alert class="alert-box radius">
 					<strong><?php echo count($ARRAYdatas); ?></strong> airports are referenced in this list.<br />
 					Loading and rendering might be a bit long depending on your browser.
+				</div>
+				<div id="alert-loading" data-alert class="alert-box info radius">
+					Loading...
 				</div>
 			</div>
 		</div>
