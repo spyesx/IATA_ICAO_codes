@@ -23,10 +23,12 @@
 
         <link rel="stylesheet" href="css/vendor/normalize.css">
         <link rel="stylesheet" href="css/vendor/foundation.css">
+        <link rel="stylesheet" href="css/vendor/jquery.dataTables.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/style.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -56,7 +58,7 @@
 
         <div class="row">
 			<div class="large-12 columns">
-				<table>
+				<table id="datas">
 					<thead>
 						<tr>
 							<th width="200">IATA Codes</th>
@@ -70,7 +72,7 @@
 					<tbody>
 			<?php
 				$rows = '';
-				foreach($ARRAYdatas as $airport)
+				foreach($ARRAYdatas as $key => $airport)
 				{
 					$rows .= '
 					<tr>
@@ -96,10 +98,11 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 
-        <script src="js/vendor/foundation/foundation.min.js"></script>
+        <script src="js/vendor/foundation.min.js"></script>
+		<script src="js/vendor/jquery.dataTables.js"></script>
+		<script src="js/vendor/jquery.dataTables.foundation.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
 		<script>
 		$(document).foundation();
 		</script>
