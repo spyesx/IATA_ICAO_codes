@@ -1,13 +1,16 @@
 $(document).ready(function()
 {
 	$('#alert-loading').html('Rendering...');
-	$('#datas').DataTable();
 
+	var $datas = $('#datas');
 	var $tbody = $('#datas tbody');
 
-	$("#datas_filter input[type=search]").attr('autofocus', 'autofocus').on('keyup', function()
+
+	var highlight = function()
 	{
-		var val = $(this).val();
+		if(typeof $search == 'undefined') { return; }
+
+		var val = $search.val();
 		if(val == '')
 		{
 			$tbody.removeHighlight();
@@ -16,7 +19,14 @@ $(document).ready(function()
 		{
 			$tbody.highlight(val);
 		}
+	};
+
+	$datas.DataTable(
+	{
+		'fnDrawCallback' : highlight
 	});
+
+	var $search = $("#datas_filter input[type=search]").eq(0).attr('autofocus', 'autofocus');
 
 	$('#alert-loading').fadeOut(300, function()
 	{
