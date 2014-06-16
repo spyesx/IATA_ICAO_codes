@@ -105,6 +105,7 @@
         <script src="js/vendor/foundation.min.js"></script>
 		<script src="js/vendor/jquery.dataTables.js"></script>
 		<script src="js/vendor/jquery.dataTables.foundation.js"></script>
+		<script src="js/vendor/jquery.highlight-4.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 		<script>

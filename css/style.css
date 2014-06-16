@@ -5,3 +5,8 @@
 #list{
 	display:none;
 }
+
+#datas .highlight{
+	background: #008cba;
+	color: white;
+}
