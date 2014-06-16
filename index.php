@@ -50,8 +50,9 @@
          <div class="row">
 			<div class="large-12 columns">
 				<div data-alert class="alert-box radius">
-					<strong><?php echo count($ARRAYdatas); ?></strong> airports are referenced in this list.<br />
-					Loading and rendering might be a bit long depending on your browser.
+					<strong><?php echo count($ARRAYdatas); ?></strong> airports are referenced in this 
+					list on the 16th of June 2014. I didn't look for a way to update it automaticaly. Feel free to fork and 
+					send your pull requests if you have an idea.
 				</div>
 				<div id="alert-loading" data-alert class="alert-box info radius">
 					Loading...
