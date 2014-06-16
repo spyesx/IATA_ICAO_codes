@@ -12,3 +12,4 @@ If you guys have an idea on how to keep the database up to date, feel free to sh
 
 [2014.06.16]
 - Add filters and search (jquery.dataTable.js)
+- Add loading alert
