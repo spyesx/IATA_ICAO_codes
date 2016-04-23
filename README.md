@@ -8,6 +8,14 @@ Feel free to visit the [demo](http://airports.weinto.com).
 
 If you guys have an idea on how to keep the database up to date, feel free to share your ideas.
 
+## IATA or ICAO ?
+
+*International Air Transport Association* or *International Civil Aviation Organization*
+
+The IATA organisation deals "only" with the commercial side of aviation, whereas ICAO deals with the technical side of aviation. 
+
+Because airports without commercial service still need to to be identified :)
+
 ## Changelog
 
 [2016.04.23]
