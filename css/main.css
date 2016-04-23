@@ -61,8 +61,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
+.alert-box p{
+    font-size:0.8rem;
+    margin:0;
+}
+.alert-box a{
+    color:#fff;
+    text-decoration:underline;
+}
 
 
 
