@@ -10,7 +10,7 @@ If you guys have an idea on how to keep the database up to date, feel free to sh
 
 ## IATA or ICAO ?
 
-*International Air Transport Association* or *International Civil Aviation Organization*
+**International Air Transport Association** or **International Civil Aviation Organization**
 
 The IATA organisation deals "only" with the commercial side of aviation, whereas ICAO deals with the technical side of aviation. 
 
