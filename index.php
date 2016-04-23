@@ -14,10 +14,9 @@
 
 		<meta property="og:title" content="IATA &amp; ICAO Codes" />
 		<meta property="og:description" content="A simple list of IATA and ICAO codes for <?php echo count($ARRAYdatas); ?> airports" />
-		<meta property="og:image" content="http://spyesx.fr/travels/assets/img/nicolas_bages_nepal_anapurnas.jpg" />
-		<meta property="og:url" content="http://spyesx.fr/travels/iata_icao_codes/" />
+		<meta property="og:url" content="http://airports.weinto.com" />
 		<meta property="og:type" content="website" />
-		<meta property="og:site_name" content="Nico's travels" />
+		<meta property="og:site_name" content="Airports IATA and ICAO codes" />
 
 
 
@@ -43,7 +42,7 @@
 				<a href="https://github.com/spyesx/IATA_ICAO_codes">Fork on Github</a>
 			</div>
 			<div class="large-2 columns valign-middle">
-				<a href="http://spyesx.fr/travels">Nicolas Bages</a>
+				<a href="http://www.weinto.com">Weinto</a>
 			</div>
         </div>
 
