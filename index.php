@@ -47,9 +47,14 @@
          <div class="row">
             <div class="large-12 columns">
                 <div data-alert class="alert-box radius">
+                    <p>
                     <strong><?php echo count($ARRAYdatas); ?></strong> airports are referenced in this
                     list on the 16th of June 2014. I didn't look for a way to update it automaticaly. Feel free to fork and
                     send your pull requests if you have an idea.
+                    </p>
+                    <p>
+                        If you need more airports than the IATA ones, visit <a href="http://data.okfn.org/data/core/airport-codes">data.okfn.org</a>
+                    </p>
                 </div>
                 <div id="alert-loading" data-alert class="alert-box info radius">
                     Loading...

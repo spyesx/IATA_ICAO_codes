@@ -8,6 +8,8 @@ Feel free to visit the [demo](http://airports.weinto.com).
 
 If you guys have an idea on how to keep the database up to date, feel free to share your ideas.
 
+If you need more airports than the IATA ones, visit [data.okfn.org](http://data.okfn.org/data/core/airport-codes)
+
 ## IATA or ICAO ?
 
 **International Air Transport Association** or **International Civil Aviation Organization**
